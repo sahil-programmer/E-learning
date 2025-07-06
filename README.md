@@ -20,7 +20,7 @@ This is the **backend API** for a full-stack **E-Learning Platform** built using
 ---
 
 ## 📁 Project Structure
-```bash
+---
 e-learning/
 │
 ├── database/# Connect database
@@ -32,16 +32,20 @@ e-learning/
 ├── .env # Environment variables
 ├── index.js # App entry point
 └── README.md # You're here!
-```bash
+
 ---
 
 ### ▶️ Run Server
 
 ```bash
-# Development
+# 1️⃣ Install dependencies
+npm install
+
+# 2️⃣ Start the server in development mode (with nodemon if configured)
 npm run dev
 
-# Production
+# 3️⃣ For production
 npm start
+
 
 
