@@ -32,7 +32,7 @@ e-learning/
 ├── .env # Environment variables
 ├── index.js # App entry point
 └── README.md # You're here!
-
+```bash
 ---
 
 ### ▶️ Run Server
