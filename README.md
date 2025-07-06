@@ -19,5 +19,31 @@ This is the **backend API** for a full-stack **E-Learning Platform** built using
 
 ---
 
+## 📁 Project Structure
 
+e-learning/
+│
+├── database/# Connect database
+├── controllers/ # Business logic (auth, course, user)
+├── middleware/ # Auth & role protection
+├── models/ # Mongoose schemas
+├── routes/ # All Express routes (auth, admin, student)
+├── uploads/ # Lecture videos/files (if stored locally)
+├── .env # Environment variables
+├── index.js # App entry point
+└── README.md # You're here!
+
+---
+
+### ▶️ Run Server
+
+```bash
+# Development
+npm run dev
+
+# Production
+npm start
+
+
+---
 
