@@ -20,7 +20,7 @@ This is the **backend API** for a full-stack **E-Learning Platform** built using
 ---
 
 ## 📁 Project Structure
-
+```bash
 e-learning/
 │
 ├── database/# Connect database
@@ -44,6 +44,4 @@ npm run dev
 # Production
 npm start
 
-
----
 
